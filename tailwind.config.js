@@ -6,9 +6,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        // primary colors - p
-        p1: '#2EF2FF',
-        p2: '#3C52D9',
+        // dark red
+        p1: '#87222A',
+        // light red
+        p2:'#BB3033',
         //caption
         p3: '#29A2FC',
         p4: '#EAEDFF',

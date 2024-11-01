@@ -37,7 +37,7 @@
   }
 
   .h1 {
-    @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
+    @apply text-[62px] font-bold leading-[74px] tracking-[-0.03em];
   }
 
   .h2 {
@@ -156,7 +156,7 @@
   /* END of Common */
   /* START of Header */
   .nav-active {
-    @apply text-p3;
+    @apply text-p2;
   }
 
   .nav-li {
