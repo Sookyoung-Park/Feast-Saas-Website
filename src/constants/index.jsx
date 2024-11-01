@@ -83,30 +83,6 @@ export const features = [
       answer:
         'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
     },
-    {
-      id: '6',
-      question: 'Can I upgrade my plan?',
-      answer:
-        'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
-    },
-    {
-      id: '7',
-      question: 'How do I invite my team?',
-      answer:
-        'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
-    },
-    {
-      id: '8',
-      question: 'Do you offer training for individuals and teams?',
-      answer:
-        'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
-    },
-    {
-      id: '9',
-      question: 'I’m locked out of my account what do I do?',
-      answer:
-        'Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.',
-    },
   ];
   
   export const plans = [
@@ -159,52 +135,46 @@ export const features = [
   
   export const testimonials = [
     {
-      id: '0',
-      name: 'Jessica Saunders',
-      role: 'Globalnomads',
-      avatarUrl: '/images/testimonials/jessica-saunders.png',
-      comment:
-        "Design On's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
-    },
-    {
       id: '1',
-      name: 'Mark Erixon',
-      role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/mark-erixon.png',
+      name: 'Alex Carter',
+      role: 'University Students',
       comment:
-        "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+        "Booking a private chef was a game-changer! I get all the variety and quality of food but in the comfort of my home. Absolutely worth it.",
     },
     {
       id: '2',
-      name: 'Melanie Hurst',
-      role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/melanie-hurst.png',
+      name: 'Emilia Chenn',
+      role: 'Housewife',
       comment:
-        "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+        "I was hesitant at first, but now I can’t go back to regular meal delivery. It’s so convenient, and the chefs bring such a personal touch to every dish.",
     },
     {
       id: '3',
-      name: 'Alicia Barker',
-      role: 'Cyberleap',
-      avatarUrl: '/images/testimonials/alicia-barker.png',
+      name: 'Marcus Lee',
+      role: 'Software Engineer',
       comment:
-        "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+        "Having meals prepped at home has made my busy work week so much smoother. It’s like having a personal chef without the hefty price tag!",
     },
     {
       id: '4',
-      name: 'Becky Snider',
-      role: 'Floclips',
-      avatarUrl: '/images/testimonials/becky-snider.png',
+      name: 'Liam Patel',
+      role: 'Restaurant Chief',
       comment:
-        "Switched to Design On last month, and I'm already seeing results. Best decision for our team!",
+        "The chefs are incredibly skilled, and the dishes are top-notch. This service has changed how I handle meal planning for my family.",
     },
     {
       id: '5',
-      name: 'Jim Bradley',
-      role: 'Vid capital intl',
-      avatarUrl: '/images/testimonials/jim-bradley.png',
+      name: 'Rachel Kim',
+      role: 'Translator',
       comment:
-        'The efficiency boost is undeniable. This platform has transformed our workflow, forever.',
+        "Tried this service last month, and I’m hooked. It’s affordable, convenient, and so much better than any meal kit I’ve tried.",
+    },
+    {
+      id: '6',
+      name: 'Jim Tucker',
+      role: 'Research Professor',
+      comment:
+        'This platform makes it easy to enjoy high-quality, homemade meals whenever I need. My meal routine has completely transformed!',
     },
   ];
   

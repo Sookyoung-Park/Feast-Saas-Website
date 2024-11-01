@@ -11,16 +11,9 @@ const TestimonialItem = ({ item, containerClassName }) => {
       <blockquote className="h7 mb-8 text-p7">{item.comment}</blockquote>
 
       <div className="flex items-center max-xl:-mr-8">
-        <div className="mr-4 size-20 shrink-0 rounded-half border-2 border-s2/10 p-1">
-          <img
-            src={item.avatarUrl}
-            alt={item.name}
-            className="size-full object-cover"
-          />
-        </div>
         <div>
           <h4 className="body-2 mb-0.5 text-p3">{item.name}</h4>
-          <p className="small-compact uppercase text-s3">{item.role}</p>
+          <p className="small-compact uppercase text-p6">{item.role}</p>
         </div>
       </div>
     </div>
