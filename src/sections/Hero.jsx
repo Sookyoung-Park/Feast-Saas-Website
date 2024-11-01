@@ -19,7 +19,7 @@ const Hero = () => {
             <p className="max-w-500 text-p6 mb-14 body-1 ">
             Every person and family in America deserves the right to enjoy home-cooked meals, no matter how busy life becomes.
             </p>
-            <LinkScroll to='features' offset={100} spy smooth
+            <LinkScroll to='download' offset={100} spy smooth
             className='max-md:hidden'>
               <Button icon="/images/feast-hero-button.svg">Contact Us</Button>
             </LinkScroll>

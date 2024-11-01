@@ -5,6 +5,7 @@ import JoinUs from "./sections/JoinUs"
 import Faq from './sections/Faq'
 import Testimonials from './sections/Testimonials'
 import Download from "./sections/Download"
+import MessageForm from "./sections/MessageForm"
 import Footer from "./sections/Footer"
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <JoinUs/>
       <Faq />
       <Testimonials /> 
+      <MessageForm/>
       <Download />
       <Footer />
     </main>
