@@ -1,10 +1,10 @@
 export const features = [
     {
       id: '0',
-      icon: '/images/feature-1.png',
-      caption: 'Professional Design Process',
-      title: 'Design smarter not harder',
-      text: "Exceptional design starts with understanding. We dive deep into user insights to create interfaces that are not only visually stunning but also intuitive and user-centered.",
+      icon: '/images/feast-feature-1.png',
+      caption: 'Meal Discovery',
+      title: 'Discover your Meal',
+      text: "You can search for chefs by cuisine and dietary needs and filter various chefs by availability!",
       button: {
         icon: '/images/magictouch.svg',
         title: 'View Design Service',
@@ -12,10 +12,10 @@ export const features = [
     },
     {
       id: '1',
-      icon: '/images/feature-2.png',
-      caption: 'Flowless & Seamless Performance',
-      title: 'Sleep easy, we got your back',
-      text: 'Our development team builds responsive, fast, and scalable digital experiences. We ensure that your site or app performs flawlessly across all devices, with a focus on robust functionality and seamless user experience.',
+      icon: '/images/feast-feature-2.png',
+      caption: 'Meal Planning & Scheduling',
+      title: 'Plan & Schedule your Meal',
+      text: 'Chefs can manage scheduling and meal calendar easily and quickly.',
       button: {
         icon: '/images/docs.svg',
         title: 'View Development Service',
@@ -26,23 +26,23 @@ export const features = [
   export const details = [
     {
       id: '0',
-      icon: '/images/detail-1.png',
-      title: 'AI Automated Design Tool',
+      icon: '/images/feast-feature-detail-1.png',
+      title: 'Set Dietary Perferences',
     },
     {
       id: '1',
-      icon: '/images/detail-2.png',
-      title: 'Collaborate With Your Team',
+      icon: '/images/feast-feature-detail-2.png',
+      title: 'Dashboard for Chiefs',
     },
     {
       id: '2',
-      icon: '/images/detail-3.png',
-      title: 'Ultra fast cloud-engine',
+      icon: '/images/feast-feature-detail-3.png',
+      title: 'Filter Various Cuisine',
     },
     {
       id: '3',
-      icon: '/images/detail-4.png',
-      title: '24/7 Customer support',
+      icon: '/images/feast-feature-detail-4.png',
+      title: 'Chef & Customer Meal Calendar',
     },
   ];
   

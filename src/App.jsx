@@ -1,7 +1,7 @@
 import Header from "./sections/header"
 import Hero from "./sections/Hero"
 import Features from "./sections/Features"
-import Pricing from "./sections/Pricing"
+import JoinUs from "./sections/JoinUs"
 import Faq from './sections/Faq'
 import Testimonials from './sections/Testimonials'
 import Download from "./sections/Download"
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Hero/>
       <Features />
-      <Pricing />
+      <JoinUs/>
       <Faq />
       <Testimonials /> 
       <Download />

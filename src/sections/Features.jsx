@@ -12,35 +12,34 @@ const Features = () => {
             {features.map(({id, icon, caption,title, text, button}) => (
               <div 
               key={id}
-              className="relative z-2 md:px-10 px-5 md:pb-10 pb-5 flex-50 max-md:g7 max-md:border-2 max-md:border-s3 max-md:rounded-3xl max-md:flex-320 max-md:mt-20"
+              className="relative z-2 md:px-10 px-5 md:pb-10 pb-5 flex-50 max-md:g1 max-md:border-2 max-md:border-p7/10 max-md:rounded-3xl max-md:flex-320 max-md:mt-20"
               >
                 <div className='w-full flex justify-start items-start'>
                   <div className='-ml-3 mb-8 flex items-center justify-center flex-col'>
                     <div className='w-0.5 h-16 bg-s3/10'/>
                     <img 
                     src={icon} 
-                    className="size-36 -mt-6 object-contain"
+                    className="size-40 -mt-6 object-contain"
                     alt="feature-icon"
                     />
                   </div>
                 </div>
 
                 <p className='caption mb-5 max-md:mb-6'>{caption}</p>
-                <h2 className='max-w-400 mb-7 h3 text-p7 max-md:mb-6 max-md:h5 max-md:text-p4'>{title}</h2>
-                <p className='mb-11 body-3 text-p6 max-md:mb-8 max-md:body-3 max-md:text-p5'>{text}</p>
-                <Button icon={button.icon}>{button.title}</Button>
+                <h2 className='max-w-400 mb-7 h3 text-p7 max-md:mb-6 max-md:h5'>{title}</h2>
+                <p className='mb-11 body-3 text-p6 max-md:mb-8 max-md:body-3'>{text}</p>
               </div>
             ))}
 
             <ul className='relative flex justify-around flex-grow px-[5%] border-2 border-s3/10 rounded-7xl max-md:hidden'>
-              <div className='absolute bg-s3/10 top-[38%] left-0 right-0 w-full h-[1px] z-10'/>
+              {/* <div className='absolute bg-s3/10 top-[38%] left-0 right-0 w-full h-[1px] z-10'/> */}
               {details.map(({id, icon, title}) => (
                 <li key={id} className="relative pt-16 px-4 pb-14">
                     <div className='flex items-center justify-center mx-auto mb-3 border-2 border-s3/5 rounded-full hover:border-p3/50 transition-all duration-500 shadow-500 size-20'>
                       <img 
                       src={icon} 
                       alt={title}
-                      className="size-17/20 object-contain z-20"
+                      className="size-20/20 object-contain z-20"
                       />
                     </div>
 

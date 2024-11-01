@@ -26,7 +26,7 @@ const Header = () => {
       spy
       smooth
       activeClass="nav-active"
-      className="base-bold text-black uppercase transition-colors duration-500 cursor-pointer hover:text-p2 max-lg:my-4 max-lg:h5"
+      className="base-bold text-black uppercase transition-colors duration-500 cursor-pointer hover:text-p2 max-lg:my-4 max-lg:h5 max-lg:text-p8"
     >
       {title}
     </LinkScroll>
@@ -46,17 +46,16 @@ const Header = () => {
 
         <div
           className={clsx(
-            "w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0",
+            "w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-white max-lg:opacity-0",
             isOpen ? "max-lg:opacity-100" : "max-lg:pointer-events-none",
           )}
         >
-          <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4">
+          <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden  max-md:px-4">
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
                   <NavLink title="features" />
-                  <div className="dot" />
-                  <NavLink title="pricing" />
+                  <NavLink title="joinus" />
                 </li>
 
                 <li className="nav-logo">
@@ -80,7 +79,6 @@ const Header = () => {
 
                 <li className="nav-li">
                   <NavLink title="faq" />
-                  <div className="dot" />
                   <NavLink title="download" />
                 </li>
               </ul>
@@ -89,13 +87,13 @@ const Header = () => {
         </div>
 
         <button
-          className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
+          className="lg:hidden z-2 size-10  rounded-full flex justify-center items-center"
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/images/${isOpen ? "feast-header-close" : "feast-header-hamburger"}.svg`}
             alt="magic"
-            className="size-1/2 object-contain"
+            className="size-4/6 object-contain"
           />
         </button>
       </div>

@@ -10,9 +10,10 @@ export default {
         p1: '#87222A',
         // light red
         p2:'#BB3033',
-        //caption
-        p3: '#29A2FC',
-        p4: '#EAEDFF',
+        //caption - brightlight red
+        p3: '#DC5F62',
+        // redish white
+        p4: '#FFF3F2',
         p5: '#C4CBF5',
         p6: '#8E8E8E',
         p7: '#424242',
@@ -32,7 +33,7 @@ export default {
         200: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #3391FF',
         300: '0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #1959AD',
         400: 'inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05)',
-        500: '0px 8px 24px rgba(0, 0, 0, 0.14), 0px -14px 48px rgba(40, 51, 111, 0.07)',
+        500: '0px 8px 24px rgba(0, 0, 0, 0.09), 0px -14px 48px rgba(40, 51, 111, 0.07)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
