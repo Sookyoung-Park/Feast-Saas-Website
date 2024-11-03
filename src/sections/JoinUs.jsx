@@ -19,7 +19,7 @@ const JoinUs = () => {
                             By connecting clients with skilled chefs, we’re building a unique “creator economy” that offers chefs part-time, flexible work opportunities to share their culinary skills.
                         </p>
                         <LinkScroll
-                            to={'download'}
+                            to={'contactus'}
                             offset={-100}
                             spy
                             smooth
