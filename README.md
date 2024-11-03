@@ -1,4 +1,4 @@
-<!-- ![LandingPage](https://github.com/Sookyoung-Park/Saas-App-Landing-Page/blob/main/saas-app-landing-page/public/images/moneyshot.png?raw=true) -->
+![LandingPage](https://github.com/Sookyoung-Park/Feast-Saas-Website/blob/main/public/images/feast-moneyshot-1.png?raw=true)
 
 <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=000000" alt="react.js" />
@@ -53,6 +53,4 @@ npm run dev
 
 
 ## **Screenshots**
-<!-- ![Screenshot1](https://github.com/Sookyoung-Park/Saas-App-Landing-Page/blob/main/saas-app-landing-page/public/images/micro-animation-1.gif?raw=true)
-![Screenshot2](https://github.com/Sookyoung-Park/Saas-App-Landing-Page/blob/main/saas-app-landing-page/public/images/micro-animation-2.gif?raw=true)
-![Screenshot3](https://github.com/Sookyoung-Park/Saas-App-Landing-Page/blob/main/saas-app-landing-page/public/images/micro-animation-3.gif?raw=true) -->
+![Screenshot1](https://github.com/Sookyoung-Park/Feast-Saas-Website/blob/main/public/images/feast-demo.gif?raw=true)
