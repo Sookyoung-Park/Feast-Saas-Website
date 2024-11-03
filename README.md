@@ -27,6 +27,7 @@ A cutting-edge SaaS website built with React.js and Tailwind CSS, showcasing mod
 - Seamless Navigation: Offers a smooth user experience with intuitive navigation and scrolling.
 -  Precised Pixel Perfect Design
 - Responsive design on any device and screen size
+- Contact Form using Email.js
 
 
 ## **Usage**
