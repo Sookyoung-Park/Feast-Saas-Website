@@ -54,3 +54,4 @@ npm run dev
 
 ## **Screenshots**
 ![Screenshot1](https://github.com/Sookyoung-Park/Feast-Saas-Website/blob/main/public/images/feast-demo.gif?raw=true)
+
