@@ -78,8 +78,8 @@ const Header = () => {
                 </li>
 
                 <li className="nav-li">
-                  <NavLink title="faq" />
-                  <NavLink title="download" />
+                  <NavLink title="reviews" />
+                  <NavLink title="contactus" />
                 </li>
               </ul>
             </nav>

@@ -33,7 +33,7 @@ const MessageForm = () => {
     return (
         <section>
             <Element
-                name="Messageform"
+                name="contactus"
                 className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
             >
                 <div className="container">
@@ -116,13 +116,13 @@ const MessageForm = () => {
                                 <label className="text-p4 mb-1">Message</label>
                                 <textarea
                                     name="message"
-                                    placeholder="Your message here..."
+                                    placeholder="Your message here"
                                     className="border text-p4 p-2 bg-transparent placeholder-p4/20 border-p4/70 rounded focus:outline-none"
                                     rows="4"
                                 />
                             </div>
 
-                            <button type="submit" className="bg-blue-600 text-white rounded p-2 hover:bg-blue-700 transition duration-200">
+                            <button type="submit" className=" mt-20 px-20 py-2 bg-p2 text-white rounded p-2 hover:bg-p3 transition duration-200">
                                 Send
                             </button>
                         </form>
