@@ -46,54 +46,6 @@ export const features = [
     },
   ];
   
-  export const plans = [
-    {
-      id: '0',
-      title: 'Design',
-      priceMonthly: 30,
-      priceYearly: 18,
-      caption: 'App / Web Design',
-      features: [
-        'Original Design File',
-        'Responsive Design',
-        'Match 1 on 1 Professional',
-        '24/7 support',
-      ],
-      icon: '/images/circle.svg',
-      logo: '/images/plan-1.png',
-    },
-    {
-      id: '1',
-      title: 'Design & Implemention',
-      priceMonthly: 70,
-      priceYearly: 55,
-      caption: 'Design & Frontend',
-      features: [
-        'Original Design File',
-        'Original Source Code',
-        'Match 1 on 1 Professionals',
-        '24/7 support',
-      ],
-      icon: '/images/triangle.svg',
-      logo: '/images/plan-2.png',
-    },
-    {
-      id: '2',
-      title: 'Implementation',
-      priceMonthly: 50,
-      priceYearly: 35,
-      caption: 'Frontend Implementation',
-      features: [
-        'React, HTML/CSS',
-        'Original Design File',
-        'Match 1 on 1 Professionals',
-        '24/7 Support',
-      ],
-      icon: '/images/hexagon.svg',
-      logo: '/images/plan-3.png',
-    },
-  ];
-  
   export const testimonials = [
     {
       id: '1',
@@ -136,44 +88,6 @@ export const features = [
       role: 'Research Professor',
       comment:
         'This platform makes it easy to enjoy high-quality, homemade meals whenever I need. My meal routine has completely transformed!',
-    },
-  ];
-  
-  export const logos = [
-    {
-      id: '0',
-      title: 'Afterpay',
-      url: '/images/logos/afterpay.svg',
-      width: 156,
-      height: 48,
-    },
-    {
-      id: '1',
-      title: 'Amplitude',
-      url: '/images/logos/amplitude.svg',
-      width: 194,
-      height: 48,
-    },
-    {
-      id: '2',
-      title: 'Sonos',
-      url: '/images/logos/sonos.svg',
-      width: 115,
-      height: 48,
-    },
-    {
-      id: '3',
-      title: 'Maze',
-      url: '/images/logos/maze.svg',
-      width: 142,
-      height: 48,
-    },
-    {
-      id: '4',
-      title: 'Drips',
-      url: '/images/logos/drips.svg',
-      width: 77,
-      height: 48,
     },
   ];
   
@@ -332,29 +246,3 @@ export const features = [
     },
   ];
   
-  export const socials = [
-    {
-      id: '0',
-      title: 'x',
-      icon: '/images/socials/x.svg',
-      url: '#',
-    },
-    {
-      id: '1',
-      title: 'Threads',
-      icon: '/images/socials/threads.svg',
-      url: '#',
-    },
-    {
-      id: '2',
-      title: 'Instagram',
-      icon: '/images/socials/instagram.svg',
-      url: '#',
-    },
-    {
-      id: '3',
-      title: 'Discord',
-      icon: '/images/socials/discord.svg',
-      url: '#',
-    },
-  ];

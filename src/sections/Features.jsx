@@ -1,7 +1,6 @@
 import React from 'react'
 import {Element} from 'react-scroll'
 import { details, features } from '../constants'
-import Button from '../components/Button'
 
 const Features = () => {
   return (
@@ -32,7 +31,6 @@ const Features = () => {
             ))}
 
             <ul className='relative flex justify-around flex-grow px-[5%] border-2 border-s3/10 rounded-7xl max-md:hidden'>
-              {/* <div className='absolute bg-s3/10 top-[38%] left-0 right-0 w-full h-[1px] z-10'/> */}
               {details.map(({id, icon, title}) => (
                 <li key={id} className="relative pt-16 px-4 pb-14">
                     <div className='flex items-center justify-center mx-auto mb-3 border-2 border-s3/5 rounded-full hover:border-p3/50 transition-all duration-500 shadow-500 size-20'>
@@ -45,8 +43,7 @@ const Features = () => {
 
                     <h3 className='text-p7 relative z-2 max-w-36 mx-auto my-0 mt-6 base-small text-center uppercase'>
                       {title}  
-                    </h3>            
-                    {/* </div> */}
+                    </h3>
                 </li>
               ))}
             </ul>

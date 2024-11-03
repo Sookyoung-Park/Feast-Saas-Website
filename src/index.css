@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    /* @apply bg-s1; */
-  }
-
   body {
     @apply font-poppins text-[16px] tracking-[-0.03em] text-white;
   }
@@ -102,14 +98,6 @@
     background: linear-gradient(rgba(246, 156, 136, 0.05), transparent);
   }
 
-  .g2 {
-    background: linear-gradient(#3062a3, #19549f);
-  }
-
-  .g3 {
-    background: linear-gradient(#3c52d9, #0c1838);
-  }
-
   .g4 {
     /* background: linear-gradient(#253575, #162561); */
     /* p1 to p2 */
@@ -122,10 +110,6 @@
     background: linear-gradient(#913638, #912029);
   }
 
-  .g6 {
-    background: linear-gradient(#334679, #0c1838);
-  }
-
   .g7 {
     background: linear-gradient(#802128, #63141B);
   }
@@ -133,10 +117,6 @@
   .g8 {
     /* button glow */
     background: linear-gradient(to right, transparent, #FFFFFF, transparent);
-  }
-
-  .g9 {
-    background: linear-gradient(#080d27, transparent);
   }
 
   /* END of Gradients */
@@ -250,7 +230,7 @@
   }
 
   .testimonials_inner-before {
-    @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-s2/5 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
+    @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-s2/5 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-lg:hidden;
   }
 
   .testimonials_inner-after {
