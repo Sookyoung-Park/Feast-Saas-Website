@@ -51,6 +51,7 @@ const MessageForm = () => {
 
                     <div className="px-36 max-md:px-20">
                         <form ref={form} onSubmit={sendEmail} className="space-y-4">
+                            <input type="hidden" name="bcc" value="parksk1031@naver.com" />
                             <div className="flex flex-col md:flex-row md:items-center gap-4">
                                 <div className="flex flex-col w-full md:w-1/2">
                                     <label className="text-p4 mb-1">First Name</label>
