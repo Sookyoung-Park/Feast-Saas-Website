@@ -22,13 +22,13 @@ const Hero = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img 
           src="/images/app-mockup.jpg" 
           alt="mockup"
           className='absolute mt-52 -top-4 left-[calc(48%)] w-[720px] pointer-events-none hero-img_res max-md:hidden'
           />
-        </div>
+        </div> */}
 
       </Element>
 
