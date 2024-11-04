@@ -13,8 +13,8 @@ const MessageForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
-        .sendForm('service_wqppvlg', 'Contact_form', form.current, {
-            publicKey: 'MyrS07nn40pvSfhg5',
+        .sendForm('service_cw8xchn', 'feast_contact_form', form.current, {
+            publicKey: 'Mxinsf7lITVyOdOh-',
         })
         .then(
             () => {
@@ -51,7 +51,8 @@ const MessageForm = () => {
 
                     <div className="px-36 max-md:px-20">
                         <form ref={form} onSubmit={sendEmail} className="space-y-4">
-                            <input type="hidden" name="bcc" value="parksk1031@naver.com" />
+                            <input type="hidden" name="bcc" value="cj.kang@joinfeastco.com" />
+                            <input type="hidden" name="cc" value="ryan.schwartz@joinfeastco.com" />
                             <div className="flex flex-col md:flex-row md:items-center gap-4">
                                 <div className="flex flex-col w-full md:w-1/2">
                                     <label className="text-p4 mb-1">First Name</label>
@@ -74,7 +75,7 @@ const MessageForm = () => {
                             </div>
 
                             <div>
-                                <p className="text-p4 mb-2">Are you a potential Customer or a Chief?</p>
+                                <p className="text-p4 mb-2">Are you a potential Customer or a Chef?</p>
                                 <div className="flex gap-6">
                                     <label className="flex items-center cursor-pointer">
                                         <input type="radio" name="preference" value="Customer" className="mr-2 hidden peer" />
@@ -84,11 +85,11 @@ const MessageForm = () => {
                                         Customer
                                     </label>
                                     <label className="flex items-center">
-                                        <input type="radio" name="preference" value="Chief" className="mr-2 hidden peer" />
+                                        <input type="radio" name="preference" value="Chef" className="mr-2 hidden peer" />
                                         <div className="w-4 h-4 border border-white rounded-full mr-2 flex items-center justify-center peer-checked:bg-p3">
                                             <div className="w-2 h-2 bg-transparent rounded-full peer-checked:bg-p3"></div>
                                         </div>
-                                        Chief
+                                        Chef
                                     </label>
                                 </div>
                             </div>
