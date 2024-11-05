@@ -13,7 +13,7 @@ const Hero = () => {
             Democratize the Use of Private Chefs
             </h1>
             <p className="max-w-500 text-p6 mb-14 body-1 ">
-            Every person and family in America deserves the right to enjoy home-cooked meals, no matter how busy life becomes.
+            Every person and family deserves the right to enjoy home-cooked meals, no matter how busy life becomes.
             </p>
             <LinkScroll to='contactus' offset={100} spy smooth
             className='max-md:hidden'>

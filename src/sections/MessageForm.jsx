@@ -39,7 +39,7 @@ const MessageForm = () => {
                 <div className="container">
                     <div className="flex flex-col items-center mb-10">
                         <h2 className="h4 text-white text-center max-w-md">
-                            Reach Us to Join Us
+                            Contact Us to Feast!
                         </h2>
                     </div>
 

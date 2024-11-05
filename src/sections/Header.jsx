@@ -18,10 +18,25 @@ const Header = () => {
     };
   }, []);
 
-  const NavLink = ({ title }) => (
+  // const NavLink = ({ title }) => (
+  //   <LinkScroll
+  //     onClick={() => setIsOpen(false)}
+  //     to={title}
+  //     offset={-100}
+  //     spy
+  //     smooth
+  //     activeClass="nav-active"
+  //     className="base-bold text-black uppercase transition-colors duration-500 cursor-pointer hover:text-p2 max-lg:my-4 max-lg:h5 max-lg:text-p8"
+  //   >
+  //     {title}
+  //   </LinkScroll>
+  // );
+
+  // updated
+  const NavLink = ({ title, to}) => (
     <LinkScroll
       onClick={() => setIsOpen(false)}
-      to={title}
+      to={to}
       offset={-100}
       spy
       smooth
@@ -54,13 +69,13 @@ const Header = () => {
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
               <ul className="flex max-lg:block max-lg:px-12">
                 <li className="nav-li">
-                  <NavLink title="features" />
-                  <NavLink title="joinus" />
+                  <NavLink to="features" title="features" />
+                  <NavLink to="joinus" title="Join Us" />
                 </li>
 
                 <li className="nav-logo">
                   <LinkScroll
-                    to="hero"
+                    // to="hero"
                     offset={-250}
                     spy
                     smooth
@@ -78,8 +93,8 @@ const Header = () => {
                 </li>
 
                 <li className="nav-li">
-                  <NavLink title="reviews" />
-                  <NavLink title="contactus" />
+                  <NavLink to="reviews" title="reviews" />
+                  <NavLink to="contactus" title="contact us" />
                 </li>
               </ul>
             </nav>
